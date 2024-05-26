@@ -4,7 +4,9 @@ import scipy.io.wavfile
 import cupy as cp
 from tkinter import filedialog, Tk
 import os
-import subprocess
+
+# You should change cupy if you dont have a nvidia cpu or not installed it
+
 
 def map_pixel_to_frequency(channel, min_freq, max_freq):
     frequencies = min_freq + (max_freq - min_freq) * (channel / 255.0)
