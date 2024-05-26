@@ -5,7 +5,7 @@ import cupy as cp
 from tkinter import filedialog, Tk
 import os
 
-# You should change cupy if you dont have a nvidia cpu or not installed it
+# You should change cupy if you dont have a nvidia gpu or not installed it
 
 
 def map_pixel_to_frequency(channel, min_freq, max_freq):
