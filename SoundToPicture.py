@@ -3,7 +3,6 @@ import scipy.io.wavfile
 import scipy.fftpack
 import cv2
 import os
-import subprocess
 from tkinter import filedialog, Tk
 
 
