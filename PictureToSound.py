@@ -47,7 +47,7 @@ def encode_image():
     }
 
     SAMPLE_RATE = 192000
-    DURATION = 0.002
+    DURATION = 0.02
 
     combined_waveform = []
 
