@@ -7,7 +7,7 @@ from tkinter import filedialog, Tk
 
 
 SAMPLE_RATE = 192000
-DURATION = 0.002
+DURATION = 0.02
 
 def freq_to_pixel(freq, min_freq, max_freq):
     pixel_val = (freq - min_freq) / (max_freq - min_freq) * 255
